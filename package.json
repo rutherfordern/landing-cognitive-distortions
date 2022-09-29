@@ -1,0 +1,24 @@
+{
+  "name": "cognitive-distortions-landing-page",
+  "version": "1.0.0",
+  "description": "Landing page about cognitive distortions in programming.",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rutherfordern/layout-designer-project-58.git"
+  },
+  "author": "Egor Zagaevskiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rutherfordern/layout-designer-project-58/issues"
+  },
+  "homepage": "https://github.com/rutherfordern/layout-designer-project-58#readme",
+  "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "stylelint": "^14.13.0",
+    "stylelint-config-standard": "^28.0.0"
+  }
+}
