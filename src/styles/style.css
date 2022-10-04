@@ -79,6 +79,14 @@ body {
     content: '';
 }
 
+.bg-light {
+    background-color: var(--bg-light);
+}
+
+.bg-dark {
+    background-color: var(--bg-dark);
+}
+
 h1, h2, h3 {
     margin: 0;
     padding: 0;
@@ -112,6 +120,22 @@ p {
     font-size: inherit;
 
     line-height: var(--font-line-height);
+}
+
+.decription-distortions {
+    font-size: 34px;
+
+    font-family: var(--heading-font);
+    line-height: var(--h-line-height);
+}
+
+.text-cognitive-distortions {
+    font-size: 24px;
+
+    font-family: var(--heading-font);
+    line-height: var(--h-line-height);
+
+    color: var(--secondary-dark);
 }
 
 .text-column {
@@ -152,10 +176,6 @@ p {
 }
 
 /* HEADER */
-
-header {
-    background-color: var(--bg-light);
-}
 
 header .container {
     justify-content: space-between;
@@ -204,7 +224,7 @@ header .btn {
 
 /* NAVIGATION */
 
-#section-navigation {
+#navigation {
     background-color: var(--primary-dark);
 }
 
@@ -213,7 +233,7 @@ header .btn {
     margin-right: 30px;
 }
 
-#section-navigation .container {
+#navigation .container {
     flex-direction: row;
     flex-wrap: wrap;
     align-content: flex-start;
@@ -227,6 +247,11 @@ header .btn {
     padding: 24px;
   
     background-color: var(--bg-light);
+}
+
+.card-nav:hover {
+    color: var(--white);
+    background-color: grey;
 }
 
 .card-nav:nth-child(3n) {
@@ -246,6 +271,51 @@ header .btn {
     line-height: 1;
 }
 
-.card h3 {
+.card-nav h3 {
     margin-bottom: 16px;
 }
+
+/* IKEA EFFECT */
+
+.header-ikea {
+    display: flex;
+
+    flex-direction: row;
+}
+
+.decription-distortions {
+    margin-top: 30px;
+}
+
+.img-header-ikea {
+    margin-right: 30px;
+
+    flex-shrink: 0;
+
+    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.main-text-ikea {
+    margin-top: 100px;
+}
+
+.main-text-ikea .text-column {
+    margin-top: 20px;
+}
+
+.header-main-text-ikea {
+    box-sizing: border-box;
+    padding: 1px 10px;
+
+    color: var(--white);
+}
+
+.header-main-text-ikea h4 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: var(--h-line-height);
+    text-transform: uppercase;
+}
+
+
+
