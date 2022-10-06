@@ -122,22 +122,6 @@ p {
     line-height: var(--font-line-height);
 }
 
-.decription-distortions {
-    font-size: 34px;
-
-    font-family: var(--heading-font);
-    line-height: var(--h-line-height);
-}
-
-.text-cognitive-distortions {
-    font-size: 24px;
-
-    font-family: var(--heading-font);
-    line-height: var(--h-line-height);
-
-    color: var(--secondary-dark);
-}
-
 .text-column {
     display: flex;
 }
@@ -275,19 +259,51 @@ header .btn {
     margin-bottom: 16px;
 }
 
-/* IKEA EFFECT */
+/* MAIN */
 
-.header-ikea {
+.header-decription {
     display: flex;
 
     flex-direction: row;
+}
+
+.main-text-decription {
+    margin-top: 100px;
+}
+
+.header-main-text-decription-light {
+    box-sizing: border-box;
+    padding: 1px 10px;
+
+    color: var(--white);
+}
+
+.header-main-text-decription-dark {
+    box-sizing: border-box;
+    padding: 1px 10px;
+
+    color: var(--bg-dark);
+}
+
+.header-main-text-decription-light h4 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: var(--h-line-height);
+    text-transform: uppercase;
+}
+
+.header-main-text-decription-dark h4 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: var(--h-line-height);
+    text-transform: uppercase;
 }
 
 .decription-distortions {
     margin-top: 30px;
 }
 
-.img-header-ikea {
+.img-header-decription-left {
     margin-right: 30px;
 
     flex-shrink: 0;
@@ -295,26 +311,38 @@ header .btn {
     filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
-.main-text-ikea {
-    margin-top: 100px;
+.img-header-decription-right {
+    margin-left: 30px;
+
+    flex-shrink: 0;
+
+    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
-.main-text-ikea .text-column {
+.decription-distortions {
+    font-size: 34px;
+
+    font-family: var(--heading-font);
+    line-height: var(--h-line-height);
+}
+
+.text-cognitive-distortions {
+    font-size: 24px;
+
+    font-family: var(--heading-font);
+    line-height: var(--h-line-height);
+}
+
+.main-text-decription .text-column {
     margin-top: 20px;
 }
 
-.header-main-text-ikea {
-    box-sizing: border-box;
-    padding: 1px 10px;
-
-    color: var(--white);
+.cognitive-text-light {
+    color: var(--secondary-dark)
 }
 
-.header-main-text-ikea h4 {
-    font-size: 14px;
-    font-weight: 700;
-    line-height: var(--h-line-height);
-    text-transform: uppercase;
+.cognitive-text-dark {
+    color: var(--transparent-white)
 }
 
 
