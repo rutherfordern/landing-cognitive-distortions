@@ -33,7 +33,7 @@ a {
   text-decoration: none;
 }
 
-input, 
+input,
 button {
   padding: 0;
 
@@ -88,8 +88,8 @@ body {
   background-color: var(--bg-dark);
 }
 
-h1, 
-h2, 
+h1,
+h2,
 h3 {
   margin: 0;
   padding: 0;
@@ -151,7 +151,7 @@ p {
 }
 
 header .btn {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .btn:hover {
@@ -206,7 +206,7 @@ header .container {
   margin-top: 30px;
 
   border: none;
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
 
 /* NAVIGATION */
@@ -306,7 +306,7 @@ header .container {
 
   flex-shrink: 0;
 
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
 
 .img-header-decription-right {
@@ -314,7 +314,7 @@ header .container {
 
   flex-shrink: 0;
 
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
 
 .decription-distortions {
