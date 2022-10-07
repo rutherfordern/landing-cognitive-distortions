@@ -15,12 +15,5 @@
   "bugs": {
     "url": "https://github.com/rutherfordern/layout-designer-project-58/issues"
   },
-  "homepage": "https://github.com/rutherfordern/layout-designer-project-58#readme",
-  "devDependencies": {
-    "htmlhint": "^1.1.4",
-    "stylelint": "^14.13.0",
-    "stylelint-config-rational-order": "^0.1.2",
-    "stylelint-config-standard": "^28.0.0",
-    "stylelint-order": "^5.0.0"
-  }
+  "homepage": "https://github.com/rutherfordern/layout-designer-project-58#readme"
 }
