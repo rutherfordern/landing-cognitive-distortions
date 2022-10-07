@@ -206,7 +206,7 @@ header .container {
   margin-top: 30px;
 
   border: none;
-  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 /* NAVIGATION */
@@ -306,7 +306,7 @@ header .container {
 
   flex-shrink: 0;
 
-  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 .img-header-decription-right {
@@ -314,7 +314,7 @@ header .container {
 
   flex-shrink: 0;
 
-  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 .decription-distortions {
