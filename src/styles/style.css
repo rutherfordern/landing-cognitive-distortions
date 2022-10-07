@@ -299,10 +299,6 @@ header .btn {
     text-transform: uppercase;
 }
 
-.decription-distortions {
-    margin-top: 30px;
-}
-
 .img-header-decription-left {
     margin-right: 30px;
 
@@ -320,6 +316,7 @@ header .btn {
 }
 
 .decription-distortions {
+    margin-top: 30px;
     font-size: 34px;
 
     font-family: var(--heading-font);
@@ -345,5 +342,86 @@ header .btn {
     color: var(--transparent-white)
 }
 
+/* FOOTER */
 
+footer .subscription-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 190px;
+    padding: 0 55px;
+  
+    background-color: var(--primary-dark);
+}
 
+footer .decription-distortions {
+    margin-top: 0;
+}
+
+.form-footer {
+    box-sizing: border-box;
+    width: 50%;
+    padding-left: 15px;
+}
+
+.this-subscription {
+    display: flex;
+    width: 100%;
+}
+
+.this-subscription input {
+    flex-grow: 2;
+    height: 50px;
+    padding-left: 15px;
+}
+  
+.this-subscription .btn {
+    width: 70px;
+    height: 50px;
+}
+  
+.this-subscription .btn::before {
+    display: block;
+    width: 24px;
+    height: 24px;
+  
+    background-image: url(../img/send.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    content: '';
+}
+
+.footer-email {
+    margin-bottom: 7px;
+
+    font-size: 18px;
+    color: var(--white);
+}
+
+.text-service-rules {
+    margin: 3px 0;
+
+    font-size: 12px;
+    color: var(--white);
+}
+
+.text-service-rules a {
+    text-decoration: underline;
+}
+
+.author {
+    margin: 76px 0 16px;
+  
+    font-size: 14px;
+    text-align: center;
+}
+  
+.author p {
+    margin-bottom: 18px;
+}
+  
+.author a {
+    color: var(--blue);
+    text-decoration: underline;
+}
